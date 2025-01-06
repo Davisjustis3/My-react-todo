@@ -8,6 +8,7 @@ import { MainNavbar } from './components/MainNavbar.jsx'
 import { MainTitle } from './components/MainTitle.jsx'
 
 function App() {
+  
   const navLinks = [
     {
       icon: 'fa-solid fa-plus',
@@ -49,7 +50,7 @@ function App() {
       </Header>
     <Main>
         <MainNavbar />
-        <MainTitle navLinks={navLinks}/>
+        <MainTitle navLinks={navLinks} />
       </Main>
     </>
   )
